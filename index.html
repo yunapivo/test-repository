@@ -19,6 +19,31 @@
         ifAndElse("aidana");
         ifAndElse("jasmine");
         ifAndElse("ivan");
+
+        function goForPresident(age, citizenship) {
+           if (age===18) { 
+               console.log("Unfortunately, you need to start paying taxes.");
+           }  
+           else if (age===21) { 
+               console.log("Congratulations! You can drink alcohol :)");
+           } else if (age >= 40) {
+               console.log("WOW, you can be a president!!!");
+           } else if (age < 40) {
+               console.log("Sorry, you can't be a president :(");
+           }
+           if (citizenship === "kazakhstan") { 
+               console.log("WOOOOW, you could really be a president!!!");
+           } 
+           else if (citizenship === "india") {
+            console.log("чими чими чими ача ача ача") ;
+           } else {
+            console.log("So sorry, you will never be a president :(");
+           } 
+           }
+       goForPresident(41, "kazakhstan");
+       goForPresident(18, "russia");
+       goForPresident(15, "india");
+       goForPresident(21, "USA");
     </script>
 </body>
 </html>
